@@ -1,0 +1,312 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* CSS Document */
+
+/* Reset */
+html, body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+/* Reset */
+
+/* Heade */
+header.header {
+    padding: 50px 0;
+}
+header.header h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+header.header h1 span {
+	color: red;
+}
+/* Heade */
+
+/* Conteúdo */
+main#main {
+	width: 75%;
+	margin: 0 auto;
+}
+img.crescimento {
+    clear: both;
+    display: block;
+    width: 75%;
+    margin: 0 auto 35px auto;
+}
+main#main p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 auto 35px auto;
+}
+img.garantia {
+    clear: both;
+    display: block;
+    width: 25%;
+    margin: 0 auto 35px auto;
+}
+img.setas {
+    clear: both;
+    display: block;
+    width: 25%;
+    margin: 0 auto 15px auto;
+}
+a.cta {
+    clear: both;
+    display: block;
+    text-align: center;
+    background: green;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto 35px auto;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+a.cta span {
+    clear: both;
+    display: block;
+    font-size: 18px;
+    color: yellow;
+    font-style: italic;
+}
+.blob {
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse-black 2s infinite;
+}
+.blob.green {
+	box-shadow: 0 0 0 0 rgba(51, 217, 178, 1);
+	animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+	}
+}
+
+main#main h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+img.ad {
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+main#main h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto 25px auto;
+}
+/* Conteúdo */
+
+/* Comentários FB */
+.fb-comments {
+  clear: both;
+  display: block;
+  background: #fafafa;
+  border: 1px solid #e9ebee;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  margin: 50px auto;
+  position: relative;
+  color: #4267b2;
+  width: 75%;
+}
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+tr,
+td {
+  border: none;
+  margin: 0;
+}
+td {
+  padding: 2.5px;
+}
+tr {
+  padding: 2.5px 0;
+}
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+img.adfb {
+    clear: both;
+    display: block;
+    width: 50%;
+}
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+.fb-comments-comment-text a {
+    text-decoration: none;
+}
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url("../img/like.webp");
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+/* Comentários FB */
+
+/* Footer */
+footer.footer {
+	padding: 50px 0;
+	background: #fafafa;
+	text-align: center;
+}
+footer.footer p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.8;
+    width: 50%;
+    margin: 25px auto 0 auto;
+}
+
+footer.footer a {
+    font-size: 12px;
+}
+/* Footer */
+
+/* Responsivo */
+@media (max-width: 700px) {
+	header.header h1 {
+		width: 100%;
+		font-size: 18px;
+	}
+	main#main {
+		width: 100%;
+	}
+	img.crescimento {
+		width: 80%;
+	}	
+	main#main p {
+		font-size: 16px;
+	}
+	img.setas {
+		width: 35%;
+	}
+	a.cta {
+		width: 100%;
+	}
+	main#main h2 {
+		width: 100%;
+		font-size: 16px;
+		margin: 0 auto 25px auto;
+	}
+	main#main h3 {
+		font-size: 16px;
+	}
+	img.garantia {
+		width: 50%;
+	}
+	.fb-comments, img.adfb, footer.footer p {
+		width: 100%;
+	}
+}
+/* Responsivo */

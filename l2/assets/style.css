@@ -1,0 +1,281 @@
+@charset "UTF-8";
+body {
+	background: #000000 !important;
+}
+/* CSS Document */
+
+/* Header */
+header.header {
+    background: red;
+    padding: 10px 0;
+	margin-bottom: 25px;
+}
+header.header h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+	margin: 0;
+}
+/* Header */
+
+/* Conteúdo */
+img.ultrasecreto {
+    clear: both;
+    display: block;
+    width: 40%;
+    margin: 25px auto 50px auto;
+}
+section.conteudo h2 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+	color: #ffffff;
+    margin: 0 auto 35px auto;
+}
+section.conteudo h2 i {
+    color: red;
+    padding: 2px 10px;
+}
+section.conteudo h3 {
+    text-align: center;
+    font-size: 14px;
+	color: #ffffff;	
+    margin: 25px auto 15px auto;
+}
+section.conteudo h4 {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+	color: #ffffff;	
+	margin: 15px auto 15px auto;
+}
+section.conteudo h4 svg {
+    margin-top: -8px;
+    fill: red;
+}
+.video-vsl {
+    background: #000000;
+    clear: both;
+    display: block;
+    border: solid 4px #000000;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+img.dr {
+    clear: both;
+    display: block;
+    width: 12%;
+    margin: 40px auto 35px auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+section.conteudo h1 {
+	font-family: "Georgia", Sans-serif !important;
+	text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+	padding: 0 500px;
+}
+img.setas {
+    clear: both;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+img.bt {
+    clear: both;
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+/* Conteúdo */
+
+/* Comentários FB */
+.fb-comments {
+  clear: both;
+  display: block;
+  background: #fafafa;
+  border: 1px solid #e9ebee;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  width: 75%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  color: #4267b2;
+}
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+tr,
+td {
+  border: none;
+  margin: 0;
+}
+td {
+  padding: 2.5px;
+}
+tr {
+  padding: 2.5px 0;
+}
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+.fb-comments-comment-text a {
+    text-decoration: none;
+}
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url("../img/like.webp");
+  background-repeat: no-repeat;
+  padding-left: 43px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+/* Comentários FB */
+
+
+/* Rodapé */
+footer.footer {
+	background: #000000;
+	padding: 35px 0;
+	margin: 50px auto 0 auto;
+}
+footer.footer p {
+	text-align: center;
+	color: #fafafa;
+	font-size: 10px;
+}
+.termos {
+	clear: both;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+/* Rodapé */
+
+/* Responsivo */
+@media (max-width: 700px) {
+	img.ultrasecreto {
+		width: 80%;
+		margin: 5px auto 25px auto;
+	}	
+	header.header h1, section.conteudo h4 {
+		font-size: 16px;
+	}
+	section.conteudo h2 {
+		font-size: 21px;
+	}
+	section.conteudo h3 {
+		font-size: 12px;
+   		margin: 0 auto 10px auto;
+	}
+	.video-vsl {
+		width: 100%;
+		margin: 0 auto;
+	}
+	section.conteudo h1, section.conteudo p {
+		padding: 0 35px;
+		text-align: center;
+	}
+	img.setas {
+		width: 50%;
+		margin: 35px auto 0 auto;
+	}
+	img.bt {
+		width: 100%;
+	}
+	.fb-comments {
+		width: 95%;
+	}
+	
+}
+/* Responsivo */
